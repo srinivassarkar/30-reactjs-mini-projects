@@ -1,10 +1,24 @@
+// import One from "./One";
+// import Two from "./Two";
+// import Three from "./Three";
+// import Four from './Four';
+// import Five from "./Five";
+//import Six from "./Six";
+//import Seven from "./Seven";
+import Eight from "./Eight";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl text-yellow-400 font-bold underline text-center">
-        Hello world!
-      </h1>
-    </>
+    <div>
+      {/* <One /> */}
+      {/* <Two /> */}
+      {/* <Three/> */}
+      {/* <Four/> */}
+      {/* <Five/> */}
+      {/* <Six/> */}
+      {/* <Seven/> */}
+      <Eight />
+    </div>
   );
 }
 
