@@ -13,9 +13,13 @@
 //import Thirteen from './Thirteen';
 //import Fourteen from './Fourteen';
 //import Fifteen from './Fifteen';
-import Sixteen from './Sixteen';
+//import Sixteen from './Sixteen';
+//import Seventeen from './Seventeen';
+//import Eighteen from './Eighteen';
+import Nineteen from './Nineteen';
 
 function App() {
+
 
 
 
@@ -36,7 +40,10 @@ function App() {
       {/* <Thirteen/> */}
       {/* <Fourteen/> */}
       {/* <Fifteen/> */}
-      <Sixteen/>
+      {/* <Sixteen/> */}
+      {/* <Seventeen/> */}
+      {/* <Eighteen/> */}
+      <Nineteen/>
     </div>
   );
 }
