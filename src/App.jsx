@@ -10,9 +10,15 @@
 // import Ten from './Ten';
 // import Eleven from "./Eleven";
 //import Twelve from './Twelve';
-import Thirteen from './Thirteen';
+//import Thirteen from './Thirteen';
+//import Fourteen from './Fourteen';
+//import Fifteen from './Fifteen';
+import Sixteen from './Sixteen';
 
 function App() {
+
+
+
   return (
     <div>
       {/* <One /> */}
@@ -27,7 +33,10 @@ function App() {
       {/* <Ten/> */}
       {/* <Eleven /> */}
       {/* <Twelve/> */}
-      <Thirteen/>
+      {/* <Thirteen/> */}
+      {/* <Fourteen/> */}
+      {/* <Fifteen/> */}
+      <Sixteen/>
     </div>
   );
 }
