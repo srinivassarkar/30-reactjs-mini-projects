@@ -16,13 +16,11 @@
 //import Sixteen from './Sixteen';
 //import Seventeen from './Seventeen';
 //import Eighteen from './Eighteen';
-import Nineteen from './Nineteen';
+import Nineteen from "./Nineteen";
+import NineteenthComp from "./NineteenthComp";
+import { ThemeProvider } from "./NineteenTheme/ThemeContext";
 
 function App() {
-
-
-
-
   return (
     <div>
       {/* <One /> */}
@@ -43,7 +41,13 @@ function App() {
       {/* <Sixteen/> */}
       {/* <Seventeen/> */}
       {/* <Eighteen/> */}
-      <Nineteen/>
+
+      <ThemeProvider>
+        <div>
+          <Nineteen />
+          <NineteenthComp />
+        </div>
+      </ThemeProvider>
     </div>
   );
 }
