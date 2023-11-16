@@ -9,7 +9,7 @@ The following table lists the projects in this repository, along with their desc
 | Index | Project | Description |
 |---|---|---|
 | 1 | Hello World | A simple "Hello, World!" application. |
-| 2 | Counter App | A simple counter application. |
+| 2 | Counter App | A simple counter application. (UseState Hook) |
 | 3 | Show User Input | A simple application that displays the text that the user enters into a text input. |
 | 4 | List of Items | A simple application that displays a list of items. |
 | 5 | Toggle Switch | A simple application with a toggle switch. |
@@ -29,7 +29,7 @@ The following table lists the projects in this repository, along with their desc
 | 19 | Light Dark | A simple application with a light and dark mode toggle. |
 | 20 | Shopping Cart | A simple shopping cart application. |
 | 21 | Counter | A simple counter application. |
-| 22 | Todo List | A simple to-do list application. |
+| 22 | Todo List | A simple to-do list application. (UseReducer Hook)|
 | 23 | Pagination | A simple application with pagination. |
 | 24 | Auth | A simple authentication application. |
 | 25 | Drag | A simple application with drag-and-drop functionality. |
