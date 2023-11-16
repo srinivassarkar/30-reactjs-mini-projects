@@ -29,8 +29,8 @@ The following table lists the projects in this repository, along with their desc
 | 19 | Light Dark | A simple application with a light and dark mode toggle. |
 |    |     ***From here all the applications are mostly based upon useContext and Usereducer Hook***|
 | 20 | Shopping Cart | A simple shopping cart application. |
-| 21 | Counter | A simple counter application. |
-| 22 | Todo List | A simple to-do list application. (UseReducer Hook)|
+| 21 | Counter | A simple counter application.(UseReducer Hook) |
+| 22 | Todo List | A simple to-do list application. |
 | 23 | Pagination | A simple application with pagination. |
 | 24 | Auth | A simple authentication application. |
 | 25 | Drag | A simple application with drag-and-drop functionality. |
