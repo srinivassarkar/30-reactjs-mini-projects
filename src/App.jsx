@@ -21,7 +21,13 @@
 // import { ThemeProvider } from "./NineteenTheme/ThemeContext";
 //import Twenty from "./Twenty";
 //import TwentyOne from './TwentyOne';
-import TwentyTwo from './TwentyTwo';
+//import TwentyTwo from './TwentyTwo';
+//import TwentyThree from './TwentyThree';
+// import TwentyFour from "./TwentyFour";
+// import { AuthProvider } from "./AuthContext.jsx";
+import TwentyFive from './TwentyFive';
+
+
 
 function App() {
   return (
@@ -52,7 +58,15 @@ function App() {
       </ThemeProvider> */}
       {/* <Twenty /> */}
       {/* <TwentyOne/> */}
-      <TwentyTwo/>
+      {/* <TwentyTwo/> */}
+      {/* <TwentyThree/> */}
+      {/* <AuthProvider>
+       
+        <TwentyFour />
+      </AuthProvider> */}
+
+      <TwentyFive/>
+
     </div>
   );
 }
