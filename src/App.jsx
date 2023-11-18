@@ -19,7 +19,8 @@
 // import Nineteen from "./Nineteen";
 // import NineteenthComp from "./NineteenthComp";
 // import { ThemeProvider } from "./NineteenTheme/ThemeContext";
-//import Twenty from "./Twenty";
+import Twenty from "./Twenty";
+import { CartProvider } from "./CartContext";
 //import TwentyOne from './TwentyOne';
 //import TwentyTwo from './TwentyTwo';
 //import TwentyThree from './TwentyThree';
@@ -31,7 +32,8 @@
 //import TwentySeven from "./TwentySeven";
 //import TwentyEight from './TwentyEight';
 //import TwentyNine from './TwentyNine';
-import Thirty from './Thirty';
+//import Thirty from './Thirty';
+
 
 function App() {
   return (
@@ -60,7 +62,11 @@ function App() {
           <NineteenthComp />
         </div>
       </ThemeProvider> */}
-      {/* <Twenty /> */}
+
+      <CartProvider>
+        <Twenty />
+      </CartProvider>
+
       {/* <TwentyOne/> */}
       {/* <TwentyTwo/> */}
       {/* <TwentyThree/> */}
@@ -76,7 +82,7 @@ function App() {
       {/* <TwentySeven/> */}
       {/* <TwentyEight/> */}
       {/* <TwentyNine/> */}
-      <Thirty/>
+      {/* <Thirty/> */}
     </div>
   );
 }
