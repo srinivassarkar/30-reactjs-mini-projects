@@ -24,10 +24,14 @@
 //import TwentyTwo from './TwentyTwo';
 //import TwentyThree from './TwentyThree';
 // import TwentyFour from "./TwentyFour";
-// import { AuthProvider } from "./AuthContext.jsx";
-import TwentyFive from './TwentyFive';
-
-
+// import { AuthProvider } from "./AuthContext";
+//import TwentyFive from './TwentyFive';
+// import TwentySix from "./TwentySix";
+// import { LocalizationProvider } from "./LocalizationContext";
+//import TwentySeven from "./TwentySeven";
+//import TwentyEight from './TwentyEight';
+//import TwentyNine from './TwentyNine';
+import Thirty from './Thirty';
 
 function App() {
   return (
@@ -65,8 +69,14 @@ function App() {
         <TwentyFour />
       </AuthProvider> */}
 
-      <TwentyFive/>
-
+      {/* <TwentyFive/> */}
+      {/* <LocalizationProvider>
+        <TwentySix />
+      </LocalizationProvider> */}
+      {/* <TwentySeven/> */}
+      {/* <TwentyEight/> */}
+      {/* <TwentyNine/> */}
+      <Thirty/>
     </div>
   );
 }
